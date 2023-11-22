@@ -19,7 +19,7 @@ class screen1 extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 4.h,
+                height: 3.h,
               ),
               Padding(
                 padding: const EdgeInsets.all(12.0),
