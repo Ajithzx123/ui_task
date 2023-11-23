@@ -15,7 +15,7 @@ class OnboardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color primarycolor = Colors.blue;
+    Color primarycolor = const Color.fromARGB(207, 33, 149, 243);
 
     return Scaffold(
       body: SafeArea(
