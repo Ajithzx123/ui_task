@@ -64,7 +64,7 @@ class OnboardingScreen extends StatelessWidget {
                         left: 0,
                         right: 0,
                         height: 80,
-                        child: Container(
+                        child: SizedBox(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: List.generate(
@@ -94,7 +94,7 @@ class OnboardingScreen extends StatelessWidget {
                 ),
               );
             })),
-            Container(
+            SizedBox(
               height: 20.h,
               child: Column(
                 children: [

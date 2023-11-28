@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:ui_task2/controller/themeController.dart';
 import 'package:ui_task2/widgets/container_tile.dart';
-import 'package:ui_task2/widgets/graph_tile.dart';
 import 'package:ui_task2/widgets/my_wallet_tile.dart';
 import 'package:ui_task2/widgets/status_tile.dart';
 

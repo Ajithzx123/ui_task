@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class screen2 extends StatelessWidget {
-  const screen2({super.key});
+class Screen2 extends StatelessWidget {
+  const Screen2({super.key});
 
   @override
   Widget build(BuildContext context) {
   
 
-    return Container(
+    return SizedBox(
      
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
