@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ui_task2/view/welcomescreen/screen3.dart';
 
 class screen2 extends StatelessWidget {
   const screen2({super.key});

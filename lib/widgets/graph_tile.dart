@@ -7,22 +7,22 @@ class Graphtile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 80,
       width: 80,
       child: SfCartesianChart(
         plotAreaBorderWidth: 0,
         primaryXAxis: CategoryAxis(
           isVisible: false,
-          majorGridLines: MajorGridLines(width: 0),
-          majorTickLines: MajorTickLines(width: 0),
+          majorGridLines:const MajorGridLines(width: 0),
+          majorTickLines:const MajorTickLines(width: 0),
         ),
         primaryYAxis: NumericAxis(
           interval: 200,
           isVisible: false,
           opposedPosition: true,
-          majorGridLines: MajorGridLines(width: 0),
-          majorTickLines: MajorTickLines(width: 0),
+          majorGridLines: const MajorGridLines(width: 0),
+          majorTickLines:const MajorTickLines(width: 0),
         ),
         series: <ChartSeries>[
           LineSeries<SalesData, String>(

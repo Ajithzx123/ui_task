@@ -1,13 +1,13 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, must_be_immutable
 
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'package:ui_task2/widgets/graph_tile.dart';
 
 class ContainerTile extends StatelessWidget {
-  String name;
-  int amt;
-  var percentage;
+ final String name;
+ final int amt;
+  final String percentage;
   String btc;
   Color color;
   ContainerTile(
